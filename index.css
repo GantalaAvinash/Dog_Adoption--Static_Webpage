@@ -1,0 +1,82 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgb(0,0,0,0.5)), url('dog.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+font{
+    font-size: 35px;
+    font-family: Ink Free;
+    font-style: Bold Oblique;
+}
+
+.navbar-nav li a {
+    color: turquoise;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.nav-menu{
+    float: right;
+    margin-top: 50px;
+    list-style: none;
+    padding: 30px;
+    cursor: pointer;
+}
+
+.nav-menu li{
+    display: inline;  
+    cursor: pointer;   
+}
+  
+.nav-menu li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px 15px;
+    color: turquoise;
+    cursor: pointer;
+}
+
+.nav-menu li a:Hover{
+    border: 1px solid grey;
+    background-color: white;
+}
+
+.dogs{
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 200px;
+    text-align: center;
+    color: gold;
+}
+
+.dogs h1 {
+    font-size: 50px;
+}
+
+.mainclick{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.adopt_click{
+    border: 1px solid;
+    padding: 10px 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.adopt_click:hover{
+    color: black;
+    background-color: burlywood;
+}
